@@ -1,5 +1,7 @@
 def oxford_comma(array)
-  ["kiwi"].join
-  array = 
+ if array.length == 1
+   return "#{array[0]}"
+  elsif array.length == 2
+  return ""
 end
 
